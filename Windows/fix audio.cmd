@@ -1,2 +1,3 @@
-net stop "Windows Audio Endpoint Builder"
-net start "Windows Audio"
+net stop AudioEndpointBuilder
+net start Audiosrv
+pause
